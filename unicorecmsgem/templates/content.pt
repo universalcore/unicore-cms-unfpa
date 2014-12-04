@@ -14,9 +14,10 @@
                     </a>
                     </div>
                 </condition>
-                <div class="meta">${view.format_date(page.created_at)}</div>
                 <div class="h2">${page.title}</div>
                 <div class="meta">${page.description}</div>
+                <div class="meta">${view.format_date(page.created_at)}</div>
+
             </div>
             <div class="clr"></div>
             <p>${structure:content}</p>
