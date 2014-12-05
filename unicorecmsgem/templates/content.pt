@@ -1,30 +1,25 @@
 <div metal:use-macro="view.global_template">
     <div class="girl-heroes">
-    <div metal:fill-slot="content" class="articles">
+        <div metal:fill-slot="content" class="articles">
 
-        
-        
-        <div class="detail">
-            <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
-                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                </condition>
-                <div class="h2">${page.title}</div>
-                <div class="meta">${page.description}</div>
-
-
+             <div class="detail">
+                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
+                    <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                    </condition>
+                    <div class="h2">${page.title}</div>
+                    <div class="meta">${page.description}</div>
+                </div>
+            <div class='img'>
+                <a href="/content/detail/${page.uuid}/">
+                    <img alt='${page.title}' src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+                </a>
             </div>
-             <div class='img'>
-                    <a href="/content/detail/${page.uuid}/">
-                        <img alt='${page.title}' src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
-                    </a>
-                    </div>
 
             <div class="clr"></div>
 
             <p>${structure:content}</p>
-                                                        <div class="date">${view.format_date(page.created_at)}</div>
-
+            <div class="date">${view.format_date(page.created_at)}</div>
+            </div>
         </div>
-    </div>
     </div>
 </div>
