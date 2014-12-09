@@ -5,11 +5,7 @@
              <div class="detail">
 
                 <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
-                    <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
-                         <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                            <img alt="content image" src="${view.get_image_url(page.image_host, page.image, 320)}"/>
-                        </condition>
-                    </div>
+                   
                     <div class="h2">${page.title}</div>
                     <div class="meta">${page.description}</div>
                 </div>
