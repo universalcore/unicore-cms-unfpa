@@ -31,6 +31,9 @@
                 Latest
             </div>
             <div class="listing no-pic" tal:repeat="page view.get_featured_pages()">
+                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                        <img alt="img" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+                    </condition>
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
@@ -42,14 +45,9 @@
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
             </div>
             <div class="listing no-pic" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
-                <div tal:define="localisation view.get_localisation()" tal:omit-tag="">
-                        <condition tal:omit-tag="" tal:condition="localisation and localisation.image_host and localisation.image">
-                            <img alt="content image" src="${view.get_image_url(localisation.image_host, localisation.image, 45, 45)}"/>
-                        </condition>
-                        <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
-                        <img alt='content default' src="/static/img/girl_declaration.png" />
+                    <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                        <img alt="img" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
                     </condition>
-                </div>
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
