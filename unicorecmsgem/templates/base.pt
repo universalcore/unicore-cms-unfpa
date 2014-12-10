@@ -14,7 +14,6 @@
     <meta name="description" content=""/>
     <meta name="keywords" content="moms,maternal,baby,pregnancy,pregnant,expectant,mama,mother,pain,birth,help"/>
     <link href="${request.static_url('cms:static/css/style.css')}?v=20141113" rel="stylesheet" type="text/css" />
-    <link href="${request.static_url('cms:static/css/<inline style sheet #2>')}?v=20141113" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <div id="header">
