@@ -75,10 +75,10 @@ class TestViews(UnicoreTestCase):
 
         resp = self.app.get('/?_LOCALE_=swa_TZ', status=200)
         self.assertTrue(
-            '<a href="/about/">Jifundishe zaidi kuhusu Girl Effect</a>'
+            '<a href="/about/">Jifunze zaidi kuhusu Girl Effect</a>'
             in resp.body)
 
         resp = self.app.get('/?_LOCALE_=swh_TZ', status=200)
         self.assertTrue(
-            '<a href="/about/">Jifundishe zaidi kuhusu Girl Effect</a>'
+            '<a href="/about/">Jifunze zaidi kuhusu Girl Effect</a>'
             in resp.body)
