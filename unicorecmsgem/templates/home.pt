@@ -30,13 +30,15 @@
             <div class="h1" i18n:translate="Latest">
                 Latest
             </div>
-            <div class="listing no-pic" tal:repeat="page view.get_featured_pages()">
-                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                        <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+            <div class="listing" tal:repeat="page view.get_featured_pages()">
+                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
+                    <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                         <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
                     </condition>
-                <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
-                <p>${page.description}</p>
-                <div class="clr"></div>
+                    <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
+                    <p>${page.description}</p>
+                    <div class="clr"></div>
+                </div>
             </div>
         </div>
 
@@ -44,10 +46,12 @@
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
             </div>
-            <div class="listing no-pic" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
+            <div class="listing" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
+                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
                     <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
                         <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
                     </condition>
+                </div>
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
