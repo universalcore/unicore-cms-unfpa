@@ -30,16 +30,15 @@
             <div class="h1" i18n:translate="Latest">
                 Latest
             </div>
-            <div class="listing" tal:repeat="page view.get_featured_pages()">
-                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
-                    <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                         <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
-                    </condition>
-                </div>
+            <div tal:repeat="page view.get_featured_pages()"
+                 tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
+                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                     <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+                </condition>
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
-                
+
             </div>
         </div>
 
@@ -47,16 +46,16 @@
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
             </div>
-            <div class="listing" tal:repeat="page view.get_featured_category_pages(cat.uuid)">
-                <div tal:attributes="{'class':'head'} if page.image_host and page.image else {'class': 'head no-pic'}">
-                    <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
-                        <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
-                    </condition>
-                </div>
+            <div tal:repeat="page view.get_featured_category_pages(cat.uuid)"
+                 tal:attributes="{'class':'listing'} if page.image_host and page.image else {'class': 'listing no-pic'}">
+                <condition tal:omit-tag="" tal:condition="page.image_host and page.image">
+                    <img alt="${page.title}" src="${view.get_image_url(page.image_host, page.image, 45, 45)}"/>
+                </condition>
                 <div class="h2"><a href="/content/detail/${page.uuid}/">${page.title}</a></div>
                 <p>${page.description}</p>
                 <div class="clr"></div>
             </div>
+
             <div class="clr"></div>
             <div class="pagination" tal:condition="view.get_featured_category_pages(cat.uuid)">
                 <a href="/content/list/${cat.uuid}/"><span i18n:translate="More">More</span> ${cat.title}</a>
