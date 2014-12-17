@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 15:46+0200\n"
+"POT-Creation-Date: 2014-12-17 08:04+0200\n"
 "PO-Revision-Date: 2014-12-01 07:00+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1417417242.579152\n"
+
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:52
+msgid "Home"
+msgstr "Accueil"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
@@ -38,44 +43,39 @@ msgid "Latest"
 msgstr "Actualités"
 
 #. Default: More
-#: unicorecmsgem/templates/home.pt:100
+#: unicorecmsgem/templates/home.pt:114
 msgid "More"
 msgstr "Plus"
 
 #. Default: The Girl Declaration
-#: unicorecmsgem/templates/home.pt:111
+#: unicorecmsgem/templates/home.pt:125
 msgid "The Girl Declaration"
 msgstr "La déclaration de filles"
 
 #. Default: Read It Now.
-#: unicorecmsgem/templates/home.pt:118
+#: unicorecmsgem/templates/home.pt:132
 msgid "Read It Now."
 msgstr "Lisez-le maintenant."
 
 #. Default: And share it with other girls
-#: unicorecmsgem/templates/home.pt:121
+#: unicorecmsgem/templates/home.pt:135
 msgid "And share it with other girls"
 msgstr "Et partagez-le avec d'autres filles"
 
 #. Default: Contact
-#: unicorecmsgem/templates/home.pt:128
+#: unicorecmsgem/templates/home.pt:142
 msgid "Contact"
 msgstr "Contact"
 
 #. Default: Terms &amp; Conditions
-#: unicorecmsgem/templates/home.pt:130
+#: unicorecmsgem/templates/home.pt:144
 msgid "Terms &amp; Conditions"
 msgstr "Conditions d'utilisation"
 
 #. Default: Tips on Use
-#: unicorecmsgem/templates/home.pt:132
+#: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
 msgstr "Conseils d'utilisation"
-
-#. Default: Home
-#: unicorecmsgem/templates/base.pt:52
-msgid "Home"
-msgstr "Accueil"
 
 #~ msgid "Title of story is placed here"
 #~ msgstr "En savoir plus sur Girl Effect"

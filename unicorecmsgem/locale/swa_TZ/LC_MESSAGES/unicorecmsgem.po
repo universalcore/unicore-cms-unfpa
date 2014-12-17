@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-10 15:46+0200\n"
+"POT-Creation-Date: 2014-12-17 08:04+0200\n"
 "PO-Revision-Date: 2014-12-10 13:40+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1418218829.860522\n"
+
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:52
+msgid "Home"
+msgstr "Nyumbani"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
@@ -38,41 +43,36 @@ msgid "Latest"
 msgstr "Habari za hivi punde"
 
 #. Default: More
-#: unicorecmsgem/templates/home.pt:100
+#: unicorecmsgem/templates/home.pt:114
 msgid "More"
 msgstr "Zaidi"
 
 #. Default: The Girl Declaration
-#: unicorecmsgem/templates/home.pt:111
+#: unicorecmsgem/templates/home.pt:125
 msgid "The Girl Declaration"
 msgstr "Azimio la msichana"
 
 #. Default: Read It Now.
-#: unicorecmsgem/templates/home.pt:118
+#: unicorecmsgem/templates/home.pt:132
 msgid "Read It Now."
 msgstr "Soma sasa"
 
 #. Default: And share it with other girls
-#: unicorecmsgem/templates/home.pt:121
+#: unicorecmsgem/templates/home.pt:135
 msgid "And share it with other girls"
 msgstr "Na shiriki na wasichana wengine"
 
 #. Default: Contact
-#: unicorecmsgem/templates/home.pt:128
+#: unicorecmsgem/templates/home.pt:142
 msgid "Contact"
 msgstr "Kuwasiliana"
 
 #. Default: Terms &amp; Conditions
-#: unicorecmsgem/templates/home.pt:130
+#: unicorecmsgem/templates/home.pt:144
 msgid "Terms &amp; Conditions"
 msgstr "Sheria na Masharti"
 
 #. Default: Tips on Use
-#: unicorecmsgem/templates/home.pt:132
+#: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
 msgstr "Mawaidha ya matumizi"
-
-#. Default: Home
-#: unicorecmsgem/templates/base.pt:52
-msgid "Home"
-msgstr "Nyumbani"
