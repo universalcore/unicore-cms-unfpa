@@ -1,4 +1,4 @@
-# 
+#
 # SOME DESCRIPTIVE TITLE
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-12-01 08:15+0200\n"
+"POT-Creation-Date: 2014-12-22 13:34+0200\n"
 "PO-Revision-Date: 2014-12-11 05:12+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,62 @@ msgstr ""
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1418274775.706398\n"
 
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:52
+msgid "Home"
+msgstr "Inicio"
+
 #. Default: What Is The Girl Effect
-#: ./unicorecmsgem/templates/home.pt:10
+#: unicorecmsgem/templates/home.pt:33
 msgid "What Is The Girl Effect"
 msgstr "¿Qué es Girl Effect?"
 
 #. Default: Learn more about The Girl Effect
-#: ./unicorecmsgem/templates/home.pt:17
+#: unicorecmsgem/templates/home.pt:40
 msgid "Learn more about The Girl Effect"
 msgstr "Conoce más sobre The Girl Effect"
 
 #. Default: And spread the word
-#: ./unicorecmsgem/templates/home.pt:20
+#: unicorecmsgem/templates/home.pt:43
 msgid "And spread the word"
 msgstr "Y difundir la palabra"
 
 #. Default: Latest
-#: ./unicorecmsgem/templates/home.pt:32
+#: unicorecmsgem/templates/home.pt:55
 msgid "Latest"
 msgstr "Novedades"
 
 #. Default: More
-#: ./unicorecmsgem/templates/home.pt:77
+#: unicorecmsgem/templates/home.pt:114
 msgid "More"
 msgstr "Más"
 
 #. Default: The Girl Declaration
-#: ./unicorecmsgem/templates/home.pt:88
+#: unicorecmsgem/templates/home.pt:125
 msgid "The Girl Declaration"
 msgstr "La Declaración de las niñas"
 
 #. Default: Read It Now.
-#: ./unicorecmsgem/templates/home.pt:95
+#: unicorecmsgem/templates/home.pt:132
 msgid "Read It Now."
 msgstr "Léelo ahora"
 
 #. Default: And share it with other girls
-#: ./unicorecmsgem/templates/home.pt:98
+#: unicorecmsgem/templates/home.pt:135
 msgid "And share it with other girls"
 msgstr "y compártelo con otras chicas"
 
 #. Default: Contact
-#: ./unicorecmsgem/templates/home.pt:105
+#: unicorecmsgem/templates/home.pt:142
 msgid "Contact"
 msgstr "Contacto"
 
 #. Default: Terms &amp; Conditions
-#: ./unicorecmsgem/templates/home.pt:107
+#: unicorecmsgem/templates/home.pt:144
 msgid "Terms &amp; Conditions"
 msgstr "TÉRMINOS DE USO"
 
 #. Default: Tips on Use
-#: ./unicorecmsgem/templates/home.pt:109
+#: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
 msgstr "Consejos de Uso"
-
-#. Default: Home
-#: ./unicorecmsgem/templates/base.pt:52
-msgid "Home"
-msgstr "Inicio"
