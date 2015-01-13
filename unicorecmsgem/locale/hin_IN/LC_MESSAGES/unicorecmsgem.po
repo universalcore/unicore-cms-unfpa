@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-08 16:39+0200\n"
+"POT-Creation-Date: 2015-01-13 09:33+0200\n"
 "PO-Revision-Date: 2014-12-02 05:01+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,11 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1417496470.440380\n"
-
-#. Default: Home
-#: unicorecmsgem/templates/base.pt:52
-msgid "Home"
-msgstr "होम पेज"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
@@ -77,6 +72,11 @@ msgstr "उपयोग की शर्तें"
 #: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
 msgstr "उपयोग संबंधी युक्तियाँ"
+
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:52
+msgid "Home"
+msgstr "होम पेज"
 
 #~ msgid "Title of story is placed here"
 #~ msgstr "Learn more about The Girl Effect"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-08 16:39+0200\n"
+"POT-Creation-Date: 2015-01-13 09:33+0200\n"
 "PO-Revision-Date: 2014-12-03 02:14+0000\n"
 "Last-Translator: indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,11 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
 "X-POOTLE-MTIME: 1417572867.364008\n"
-
-#. Default: Home
-#: unicorecmsgem/templates/base.pt:52
-msgid "Home"
-msgstr "Beranda"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
@@ -76,3 +71,8 @@ msgstr "Ketentuan Penggunaan"
 #: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
 msgstr "Kiat-kiat Penggunaan"
+
+#. Default: Home
+#: unicorecmsgem/templates/base.pt:52
+msgid "Home"
+msgstr "Beranda"
