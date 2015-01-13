@@ -7,78 +7,72 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-13 10:25+0200\n"
-"PO-Revision-Date: 2014-12-01 07:00+0000\n"
-"Last-Translator: indrani <indrani@praekelt.com>\n"
+"PO-Revision-Date: 2015-01-12 11:44+0000\n"
+"Last-Translator: Indrani <indrani@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: fre_FR\n"
+"Language: mal_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1417417242.579152\n"
+"X-POOTLE-MTIME: 1421063044.005139\n"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
 msgid "What Is The Girl Effect"
-msgstr "Qu'est-ce que Girl Effect"
+msgstr "എന്താണ്‌ ഗേള്‍ ഇഫക്‌ട്‌"
 
 #. Default: Learn more about The Girl Effect
 #: unicorecmsgem/templates/home.pt:40
 msgid "Learn more about The Girl Effect"
-msgstr "En savoir plus sur Girl Effect"
+msgstr "ഗേള്‍ ഇഫക്‌ടിനെ കുറിച്ച്‌ കൂടുതല്‍ പഠിക്കുക"
 
 #. Default: And spread the word
 #: unicorecmsgem/templates/home.pt:43
 msgid "And spread the word"
-msgstr "Et passer le mot"
+msgstr "പദം പ്രചരിപ്പിക്കുക"
 
 #. Default: Latest
 #: unicorecmsgem/templates/home.pt:55
 msgid "Latest"
-msgstr "Actualités"
+msgstr "ഏറ്റവും പുതിയത്‌"
 
 #. Default: More
 #: unicorecmsgem/templates/home.pt:114
 msgid "More"
-msgstr "Plus"
+msgstr "കൂടുതല്‍"
 
 #. Default: The Girl Declaration
 #: unicorecmsgem/templates/home.pt:125
 msgid "The Girl Declaration"
-msgstr "La déclaration de filles"
+msgstr "പെണ്കു്ട്ടി പ്രഖ്യാപനം"
 
 #. Default: Read It Now.
 #: unicorecmsgem/templates/home.pt:132
 msgid "Read It Now."
-msgstr "Lisez-le maintenant."
+msgstr "അത്‌ ഇപ്പോള്‍ വായിക്കുക"
 
 #. Default: And share it with other girls
 #: unicorecmsgem/templates/home.pt:135
 msgid "And share it with other girls"
-msgstr "Et partagez-le avec d'autres filles"
+msgstr "മറ്റ്‌ പെണ്കു്ട്ടികളുമായി അത്‌ പങ്ക്‌"
 
 #. Default: Contact
 #: unicorecmsgem/templates/home.pt:142
 msgid "Contact"
-msgstr "Contact"
+msgstr "ബന്ധപ്പെടുക"
 
 #. Default: Terms &amp; Conditions
 #: unicorecmsgem/templates/home.pt:144
 msgid "Terms &amp; Conditions"
-msgstr "Conditions d'utilisation"
+msgstr "വ്യവസ്ഥകളും നിബന്ധനകളും"
 
 #. Default: Tips on Use
 #: unicorecmsgem/templates/home.pt:146
 msgid "Tips on Use"
-msgstr "Conseils d'utilisation"
+msgstr "ഉപയോഗത്തെ സംബന്ധിച്ച നിര്ദേനശങ്ങള്‍"
 
 #. Default: Home
 #: unicorecmsgem/templates/base.pt:52
 msgid "Home"
-msgstr "Accueil"
-
-#~ msgid "Title of story is placed here"
-#~ msgstr "En savoir plus sur Girl Effect"
-
-#~ msgid "Sub-heading comes here"
-#~ msgstr "Et passer le mot"
+msgstr "ഹോം"
