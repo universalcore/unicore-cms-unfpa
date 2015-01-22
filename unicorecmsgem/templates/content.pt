@@ -11,10 +11,15 @@
                     <div class="h2">${page.title}</div>
                     <div class="meta">${page.description}</div>
                 </div>
-            <div class="clr"></div>
+                <div class="clr"></div>
 
-            <p>${structure:content}</p>
-            <div class="date">${view.format_date(page.created_at)}</div>
+                <p>${structure:content}</p>
+                <div class="date">${view.format_date(page.created_at)}</div>
+                <div class="items">
+                    <div class="item" tal:repeat="linked_page linked_pages">
+                        <a href="/content/detail/${linked_page.uuid}/">&raquo; ${linked_page.title}</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
