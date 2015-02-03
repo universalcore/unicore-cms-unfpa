@@ -18,6 +18,7 @@ div#mti_wfs_colophon { display: none!important; }
 #header .lang {width: 100%; line-height: 20px; padding: 5px 18px; display: block; background: #32a6a6; color: #39c0c0; font-size: 12px; }
 #header .lang div{text-align: right;}
 #header .lang a {color: #124f52;}
+#header .lang .active { color: #227171;}
 /* SUBMENU */
 #submenu { background: #c4d131; padding: 10px 18px; margin: 3px 0 0 0; color: #8e9822; }
 #submenu a { font-weight: bold; color: #000; letter-spacing: 0.02em; }
