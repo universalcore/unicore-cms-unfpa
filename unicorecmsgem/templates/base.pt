@@ -18,7 +18,7 @@
 </head>
 <body>
     <div id="header">
-        <div id="lang">
+        <div class="lang">
           <span tal:repeat="item view.get_display_languages()">
             <a tal:attributes="{'class':'active'} if view.locale==item[0] else {}" href="/locale/${item[0]}/">${item[1]}</a> |
           </span>
