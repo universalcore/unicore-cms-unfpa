@@ -1,4 +1,5 @@
 <div metal:use-macro="view.global_template">
+    <div metal:fill-slot="nav"></div>
     <div metal:fill-slot="content" class="articles">
         <repeat tal:omit-tag="" tal:repeat="lang languages">
             <div class="listing no-pic">
