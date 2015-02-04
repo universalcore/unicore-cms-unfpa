@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2015-01-29 12:00+0200\n"
+"POT-Creation-Date: 2015-02-04 16:12+0200\n"
 "PO-Revision-Date: 2014-09-29 22:20+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language tha\n"
@@ -73,7 +73,7 @@ msgid "Tips on Use"
 msgstr ""
 
 #. Default: Home
-#: unicorecmsgem/templates/base.pt:52
+#: unicorecmsgem/templates/base.pt:48
 msgid "Home"
 msgstr ""
 
