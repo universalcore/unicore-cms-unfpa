@@ -1,10 +1,12 @@
-<div metal:use-macro="view.global_template">
+<div metal:use-macro="view.global_template"
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="unicorecmsgem">
     <div metal:fill-slot="content">
 
         <div class="object-category-list modelbase-category-list">
         <div tal:condition="paginator">
-            <p tal:condition="paginator.total_count()==1">1 search result for: <b>${query}</b></p>
-            <p tal:condition="paginator.total_count() > 1">${paginator.total_count()} search results for: <b>${query}</b></p>
+            <p tal:condition="paginator.total_count()==1" i18n:translate=''>1 search result for: <b tal:replace="query" i18n:name="query"/></p>
+            <p tal:condition="paginator.total_count() > 1" i18n:translate=''><text tal:replace='paginator.total_count()' i18n:name="number_of_results"/> search results for: <b tal:replace="query" i18n:name="query"/></p>
         </div>
 
         <div metal:use-macro="view.paginator_template"></div>
@@ -17,13 +19,13 @@
 
                         <p tal:condition="result.primary_category">${view.get_category(result.primary_category).title}</p>
                         <a href="/content/detail/${result.uuid}/">${result.title} ...</a>
-                        <a href="/content/detail/${result.uuid}/">Read More &gt;</a>
+                        <a href="/content/detail/${result.uuid}/" i18n:translate="Read More">Read More &gt;</a>
                     </div>
                 </div>
 
                 <div tal:condition="not paginator">
-                    <p tal:condition="query">No results found for <b>${query}</b></p>
-                    <p tal:condition="not query">No results found!</p>
+                    <p tal:condition="query" i18n:translate=''>No results found for <b tal:replace="query" i18n:name="query"/></p>
+                    <p tal:condition="not query" i18n:translate="No results found!">No results found!</p>
                 </div>
 
             </div>
