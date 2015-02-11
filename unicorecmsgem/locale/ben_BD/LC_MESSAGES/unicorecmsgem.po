@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-11 08:10+0200\n"
-"PO-Revision-Date: 2015-02-04 14:04+0000\n"
-"Last-Translator: Indrani <indrani@praekelt.com>\n"
+"PO-Revision-Date: 2015-02-11 06:07+0000\n"
+"Last-Translator: Milton <milton@praekelt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: ben_IN\n"
+"Language: ben_BD\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Pootle 2.5.1.1\n"
-"X-POOTLE-MTIME: 1423058699.759011\n"
+"X-POOTLE-MTIME: 1423634871.555434\n"
 
 #. Default: What Is The Girl Effect
 #: unicorecmsgem/templates/home.pt:33
@@ -60,7 +60,7 @@ msgstr "এবং অন্যান্য মেয়ের সাথে এট�
 #. Default: Contact
 #: unicorecmsgem/templates/home.pt:142
 msgid "Contact"
-msgstr "যোগাযোগ "
+msgstr "যোগাযোগ"
 
 #. Default: Terms &amp; Conditions
 #: unicorecmsgem/templates/home.pt:144
