@@ -5,8 +5,8 @@
 
         <div class="object-category-list modelbase-category-list">
         <div tal:condition="paginator">
-            <p tal:condition="paginator.total_count()==1" i18n:translate=''>1 search result for: <b tal:replace="query" i18n:name="query"/></p>
-            <p tal:condition="paginator.total_count() > 1" i18n:translate=''><text tal:replace='paginator.total_count()' i18n:name="number_of_results"/> search results for: <b tal:replace="query" i18n:name="query"/></p>
+            <p tal:condition="paginator.total_count()==1"><span tal:omit-tag="" i18n:translate='1 search result for:'>1 search result for: </span><b>${query}</b></p>
+            <p tal:condition="paginator.total_count() > 1" >${paginator.total_count()} <span tal:omit-tag="" i18n:translate='search results for:'> search results for: </span><b> ${query}</b></p>
         </div>
 
         <div metal:use-macro="view.paginator_template"></div>
