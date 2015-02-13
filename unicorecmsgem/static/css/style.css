@@ -133,6 +133,12 @@ white-space: pre\9; /* IE7+ */
 .declaration .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 .declaration .pagination a { font-weight: bold; color: #39c0c0; }
 .declaration .detail { padding: 10px; }
+/*Search Box*/
+.search-box form {
+	background-color: #ea178b;
+	padding: 10px;
+	margin: 0;
+}
 /* What */
 .what { margin: 0 0 3px 0; }
 .what .h1 { background: #c4d131; }
