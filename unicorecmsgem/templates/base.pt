@@ -38,6 +38,8 @@
     <div id="content">
         <div metal:define-slot="content"></div>
     </div>
+    <div metal:define-slot="search" metal:use-macro="view.search_box_template"></div>
+
     <div id="base"><img alt='' src="/static/img/base.jpg" /></div><!--/BASE-->
 </body>
 </html>

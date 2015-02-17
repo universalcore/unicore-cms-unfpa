@@ -70,7 +70,6 @@
                 <p i18n:translate="And share it with other girls">And share it with other girls</p>
                 <div class="clr"></div>
             </div>
-            <div metal:define-slot="search" metal:use-macro="view.search_box_template"></div>
             <div class="pagination"><a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> | <a href="/terms/" class="terms" i18n:translate="Terms &amp; Conditions">Terms &amp; Conditions</a> | <a href="/tips/" class="terms" i18n:translate="Tips on Use">Tips on Use</a></div>
         </div><!--/declaration-->
     </div>
