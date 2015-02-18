@@ -242,10 +242,6 @@ white-space: pre\9; /* IE7+ */
 #footer { padding: 15px 12px; background: #d9d9d9; font-size: 12px; text-transform: uppercase; position: relative; }
 #footer a.contact { color: #000; text-decoration: underline; }
 #footer a.terms { float: right; color: #6c6c6c; text-decoration: underline; }
-/*404 Page*/
-.page-not-found .h1 {color: #39c0c0; padding-left: 10px;}
-.page-not-found .p {padding-left: 25px}
-.page-not-found .form-search {padding-left: 25px}
 /* BASE */
 #base { height: 120px; }
 #base img { width: 100%; display: block; }
