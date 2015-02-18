@@ -139,6 +139,10 @@ white-space: pre\9; /* IE7+ */
 	padding: 10px;
 	margin: 0;
 }
+/*Search results*/
+.search-results{
+	padding-left: 10px;
+}
 /* What */
 .what { margin: 0 0 3px 0; }
 .what .h1 { background: #c4d131; }
