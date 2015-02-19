@@ -12,7 +12,7 @@
         </div>
                 <div tal:repeat="result paginator.get_page()" tal:condition="paginator" class="listing">
                         <a href="/content/detail/${result.uuid}/">${result.title}</a>
-                        <text tal:condition="result.primary_category">in</text>
+                        <text i18n:translate='in' tal:condition="result.primary_category">in</text>
                         <a href="/content/detail/${view.get_category(result.primary_category).uuid}/" tal:condition="result.primary_category">${view.get_category(result.primary_category).title}</a>
                </div>
 
