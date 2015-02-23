@@ -245,6 +245,8 @@ white-space: pre\9; /* IE7+ */
 /* BASE */
 #base { height: 120px; }
 #base img { width: 100%; display: block; }
+/*Paginator*/
+.pagenumbers {padding: 5px;}
 /* RETINA (because it's nice when you work on something that looks good) */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),

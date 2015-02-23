@@ -3,7 +3,7 @@
      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
      i18n:domain="unicorecmsgem"
      metal:define-macro="paginator">
-    <div tal:condition="paginator">
+    <div tal:omit-tag="" tal:condition="paginator">
         <div class="pagenumbers" tal:condition="(paginator.total_pages() > 1)">
 
         <a href="/search/?q=${query}&p=${p-1}" tal:condition="paginator.has_previous_page()" i18n:translate="Previous">&nbsp;&lt;&nbsp;Previous</a>

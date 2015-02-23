@@ -8,7 +8,7 @@
                 <p tal:condition="paginator.total_count() > 1" >${paginator.total_count()} <span tal:omit-tag="" i18n:translate='search results for:'> search results for: </span><b> ${query}</b></p>
             </div>
 
-            <div metal:use-macro="view.paginator_template"></div>
+            <div tal:omit-tag="" metal:use-macro="view.paginator_template"></div>
         </div>
                 <div tal:repeat="result paginator.get_page()" tal:condition="paginator" class="listing">
                         <a href="/content/detail/${result.uuid}/">${result.title}</a>
