@@ -9,8 +9,8 @@
             <p class="listing" i18n:translate="Go to the">Go to the
             <a href="/" i18n:translate="Home Page">Home Page</a></p>
 
-        <div class="h1" i18n:translate="Try looking in our categories:">Try looking in our categories:</div>
-        <div class="listing" tal:repeat="cat view.get_categories()[:20]">
+        
+        <div class="h1" tal:repeat="cat view.get_categories()[:20]">
             <a href="/content/list/${cat.uuid}/">${cat.title}
             </a>
             <div class="clear"></div>
