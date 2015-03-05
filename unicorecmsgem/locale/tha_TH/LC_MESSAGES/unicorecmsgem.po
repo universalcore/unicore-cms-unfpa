@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE 1.0\n"
-"POT-Creation-Date: 2015-02-11 08:10+0200\n"
+"POT-Creation-Date: 2015-03-05 07:40+0200\n"
 "PO-Revision-Date: 2014-09-29 22:20+0200\n"
 "Last-Translator: TonyM <tonym@localhost>\n"
 "Language-Team: Language tha\n"
@@ -72,8 +72,63 @@ msgstr ""
 msgid "Tips on Use"
 msgstr ""
 
+#. Default: 1 search result for:
+#: unicorecmsgem/templates/search_results.pt:9
+msgid "1 search result for:"
+msgstr ""
+
+#. Default: search results for:
+#: unicorecmsgem/templates/search_results.pt:14
+msgid "search results for:"
+msgstr ""
+
+#. Default: in
+#: unicorecmsgem/templates/search_results.pt:30
+msgid "in"
+msgstr ""
+
+#. Default: No results found for
+#: unicorecmsgem/templates/search_results.pt:41
+msgid "No results found for"
+msgstr ""
+
+#. Default: No results found!
+#: unicorecmsgem/templates/search_results.pt:46
+msgid "No results found!"
+msgstr ""
+
+#. Default: We can't find that page, sorry.
+#: unicorecmsgem/templates/404.pt:7
+msgid "We can't find that page, sorry."
+msgstr ""
+
+#. Default: Home Page
+#. Used in sentence: "Go to the <dynamic element>"
+#: unicorecmsgem/templates/404.pt:13
+msgid "Home Page"
+msgstr ""
+
+#. Default: Go to the <dynamic element>
+#: unicorecmsgem/templates/404.pt:11
+msgid "Go to the"
+msgstr ""
+
+#: unicorecmsgem/templates/search_box.pt:9
+msgid "Search"
+msgstr ""
+
+#. Default: Previous
+#: unicorecmsgem/templates/paginator.pt:9
+msgid "Previous"
+msgstr ""
+
+#. Default: Next
+#: unicorecmsgem/templates/paginator.pt:34
+msgid "Next"
+msgstr ""
+
 #. Default: Home
-#: unicorecmsgem/templates/base.pt:48
+#: unicorecmsgem/templates/base.pt:50
 msgid "Home"
 msgstr ""
 
