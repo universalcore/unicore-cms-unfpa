@@ -10,7 +10,7 @@
                         <img alt="Welcome to Connect Smart" src="${view.get_image_url(localisation.image_host, localisation.image, 320)}"/>
                     </condition>
                     <condition tal:omit-tag="" tal:condition="not (localisation and localisation.image_host and localisation.image)">
-                        <img alt='Welcome to Connect Smart' src="/static/img/ConnectSmart_Title-Illustration.jpg" />
+                        <img alt='Welcome to Connect Smart' src="/static/img/ConnectSmart_Title-Illustration.png" />
                     </condition>
                 </a>
             </div>
