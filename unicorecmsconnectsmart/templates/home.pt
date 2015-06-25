@@ -59,12 +59,6 @@
         </div>
 
         <div class="declaration">
-            <div class="h1"><a href="/declaration/" i18n:translate="The Girl Declaration">The Girl Declaration</a></div>
-            <div class="listing">
-                <div class="h2"><a href="/declaration/" i18n:translate="Read It Now.">Read It Now.</a></div>
-                <p i18n:translate="And share it with other girls">And share it with other girls</p>
-                <div class="clr"></div>
-            </div>
             <div class="pagination"><a href="/contact/" class="contact" i18n:translate="Contact">Contact</a> | <a href="/terms/" class="terms" i18n:translate="Terms &amp; Conditions">Terms &amp; Conditions</a> | <a href="/tips/" class="terms" i18n:translate="Tips on Use">Tips on Use</a></div>
         </div><!--/declaration-->
     </div>
