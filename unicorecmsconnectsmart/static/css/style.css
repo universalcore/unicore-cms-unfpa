@@ -55,12 +55,12 @@ div#mti_wfs_colophon { display: none!important; }
 .pagination a.right { display: none; }
 /* Articles */
 .articles { padding: 0; }
-.articles .h1 { background: #ea178b; }
+.articles .h1 { background: #1cace2; }
 .articles .listing { padding: 13px 18px; }
 .articles .listing img { width: 45px; float: left; margin: 0 18px 0 0; display: block; }
 [dir='rtl'] .articles .listing img { float: right; margin: 0 0 0 18px; }
 .articles .listing .h2 { margin: 0; padding: 0; color: #eb178e; }
-.articles .listing .h2 a { color: #eb178e; }
+.articles .listing .h2 a { color: #1cace2; }
 .articles .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 .articles .pagination a { font-weight: bold; color: #c71663; }
 .articles .no-pic .h2, .articles .no-pic p { margin-left: 0; }
@@ -252,6 +252,10 @@ white-space: pre\9; /* IE7+ */
 #base img { width: 100%; display: block; padding: 40px 60px; background-color: #1cace2;}
 /*Paginator*/
 .pagenumbers {padding: 5px;}
+/*404*/
+.articles .category-get-answers.h1 { background: #ff9933; }
+.articles .category-10-tips.h1 { background: #8ac43f; }
+.articles .category-test-your-knowledge.h1 { background: #ea178b; }
 /* RETINA (because it's nice when you work on something that looks good) */
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),

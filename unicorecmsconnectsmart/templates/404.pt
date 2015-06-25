@@ -10,7 +10,7 @@
             <a href="/" i18n:translate="Home Page">Home Page</a></p>
 
 
-        <div class="h1" tal:repeat="cat view.get_categories()[:20]">
+        <div class="category-${cat.slug} h1" tal:repeat="cat view.get_categories()[:20]">
             <a href="/content/list/${cat.uuid}/">${cat.title}
             </a>
             <div class="clear"></div>
