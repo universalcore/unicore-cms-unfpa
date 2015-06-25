@@ -1,3 +1,3 @@
-unicore-cms-gem
-===============
-GEM Pyramid Frontend Site for Universal Core
+unicore-cms-connectsmart
+========================
+Unicef's Connect Smart Pyramid Frontend Site for Universal Core
