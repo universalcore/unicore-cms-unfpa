@@ -61,7 +61,6 @@
         <div class="declaration">
             <div class="h1"><a href="/declaration/" i18n:translate="The Girl Declaration">The Girl Declaration</a></div>
             <div class="listing">
-                <a href="/declaration/"><img alt='Girl Declaration' src="/static/img/girl_declaration.png" /></a>
                 <div class="h2"><a href="/declaration/" i18n:translate="Read It Now.">Read It Now.</a></div>
                 <p i18n:translate="And share it with other girls">And share it with other girls</p>
                 <div class="clr"></div>
