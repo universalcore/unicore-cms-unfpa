@@ -147,7 +147,7 @@ white-space: pre\9; /* IE7+ */
 .what .listing img { width: 50px; float: left; margin: 0 18px 0 0; display: block; }
 [dir='rtl'] .what .listing img { float: right; margin: 0 0 0 18px; }
 .what .listing .h2 { margin: 0; padding: 0; color: #c4d131; }
-.what .listing .h2 a { color: #c4d131; padding: 0;}
+.what .listing .h2 a { color: #1cace2; padding: 0; font-weight: bold;}
 .what .listing p { margin: 0; padding: 2px 0 0 0; color: #888888; }
 .what .pagination { color: #888888; }
 .what .pagination a { font-weight: bold; color: #20b7ac; }
