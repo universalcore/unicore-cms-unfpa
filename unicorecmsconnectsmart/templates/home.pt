@@ -16,15 +16,6 @@
             </div>
         </div>
 
-        <div class="what">
-            <div class="h1"><a href="/about/" i18n:translate="What Is Connect Smart?">What Is Connect Smart?</a></div>
-            <div class="listing">
-                <a href="/about/"></a>
-                <div class="h2"><a href="/about/" i18n:translate="Do you have questions about the internet or social media that you're too embarrassed to ask?">Do you have questions about the internet or social media that you're too embarrassed to ask?</a></div>
-                <div class="clr"></div>
-            </div>
-        </div><!--/what-->
-
         <div class="articles category-${cat.slug}" tal:repeat="cat view.get_categories()">
             <div class="h1">
                 <a href="/content/list/${cat.uuid}/">${cat.title}</a>
