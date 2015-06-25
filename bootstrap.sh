@@ -5,6 +5,8 @@ set -e
 virtualenv ve
 source ve/bin/activate
 git pull
+pip install pytz==2015.2
+pip install requests==2.5.3
 pip install -e .
 pip install --upgrade elastic-git
 pip install -r requirements-dev.txt
