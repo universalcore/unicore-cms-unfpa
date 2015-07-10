@@ -1,19 +1,19 @@
 #!/bin/bash
 find . -name '*.mo' -delete
-mkdir -p unicorecmsconnectsmart/locale
+mkdir -p unicorecmsunfpa/locale
 
-pot-create -o unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot unicorecmsconnectsmart/
+pot-create -o unicorecmsunfpa/locale/unicorecmsunfpa.pot unicorecmsunfpa/
 
 declare -a arr=("eng_GB")
 
 for lang in "${arr[@]}"
 do
-    mkdir -p "unicorecmsconnectsmart/locale/""$lang""/LC_MESSAGES"
+    mkdir -p "unicorecmsunfpa/locale/""$lang""/LC_MESSAGES"
 
-    if [ ! -f "unicorecmsconnectsmart/locale/""$lang""/LC_MESSAGES/unicorecmsconnectsmart.po" ]; then
-        msginit -l $lang -i unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot -o unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.po
+    if [ ! -f "unicorecmsunfpa/locale/""$lang""/LC_MESSAGES/unicorecmsunfpa.po" ]; then
+        msginit -l $lang -i unicorecmsunfpa/locale/unicorecmsunfpa.pot -o unicorecmsunfpa/locale/$lang/LC_MESSAGES/unicorecmsunfpa.po
     fi
 
-    msgmerge --update unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.po unicorecmsconnectsmart/locale/unicorecmsconnectsmart.pot
-    msgfmt unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/*.po -o unicorecmsconnectsmart/locale/$lang/LC_MESSAGES/unicorecmsconnectsmart.mo
+    msgmerge --update unicorecmsunfpa/locale/$lang/LC_MESSAGES/unicorecmsunfpa.po unicorecmsunfpa/locale/unicorecmsunfpa.pot
+    msgfmt unicorecmsunfpa/locale/$lang/LC_MESSAGES/*.po -o unicorecmsunfpa/locale/$lang/LC_MESSAGES/unicorecmsunfpa.mo
 done
